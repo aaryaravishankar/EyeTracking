@@ -4,7 +4,8 @@ import numpy as np
 import tkinter as tk
 from tkinter import messagebox
 from threading import Thread
-import pyautogui
+import pyautogui 
+
 
 # Load Haar cascades
 face_cascade = cv2.CascadeClassifier(
